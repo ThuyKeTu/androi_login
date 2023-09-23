@@ -32,40 +32,49 @@
        <EditText
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:password="true"
+           android:inputType="textPassword"
            android:hint="Password"
            android:textColorHint="#FFFFFF"
            android:ems="15"
            android:textSize="20dp"
-           android:textColor="#FFFFFF"/>
-       <LinearLayout
-           android:layout_width="match_parent"
+           android:textColor="#FFFFFF"
+           android:layout_marginBottom="20dp"/>
+       <EditText
+           android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:gravity="center"
-           android:orientation="horizontal"
-           android:layout_marginTop="30dp"
-           android:layout_marginBottom="30dp">
-
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Signup"
-               android:layout_weight="1"
-               android:textColor="#FFFFFF"
-               android:layout_gravity="left"
-               android:layout_marginLeft="35dp"/>
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="Forgot Password"
-               android:textColor="#FFFFFF"
-               android:layout_gravity="right"
-               android:layout_marginRight="35dp"/>
-   </LinearLayout>
+           android:inputType="textPassword"
+           android:hint="Confirm password"
+           android:textColorHint="#FFFFFF"
+           android:ems="15"
+           android:textSize="20dp"
+           android:textColor="#FFFFFF"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Login"
+           android:layout_weight="1"
+           android:textColor="#FFFFFF"
+           android:layout_gravity="right"
+           android:layout_marginRight="35dp"/>
        <Button
            android:layout_width="150dp"
            android:layout_height="wrap_content"
-           android:text="Login"/>
+           android:text="register"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Phan Huu Viet Anh"
+           android:layout_weight="1"
+           android:textColor="#FF7700"
+           android:layout_gravity="left"
+           android:layout_marginLeft="35dp"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="left"
+           android:textColor="#FF7700"
+           android:text="21115053120301"
+           android:layout_marginLeft="35dp"/>
 
    </LinearLayout>
 
